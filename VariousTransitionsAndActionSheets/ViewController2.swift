@@ -13,17 +13,21 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func dialogButton(_ sender: UIButton) {
+        let alert = UIAlertController(title: "message", message: "messageを送信しますか？", preferredStyle: UIAlertController.Style.alert)
+        let cancel = UIAlertAction(title: "cancel", style: .cancel) //{ (alert) in
+//            self.dismiss(animated: true, completion: nil)
+//        }//dismissはあった方がいいのかな？
+        alert.addAction(cancel)
+        let ok = UIAlertAction(title: "ok", style: .default) //{ (alert) in
+//            self.dismiss(animated: true, completion: nil)
+//        }
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
     }
-    */
+    
 
 }

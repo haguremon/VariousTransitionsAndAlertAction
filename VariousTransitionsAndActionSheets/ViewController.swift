@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         let actionsheet = UIAlertController(
         title: "A or B",
         message: "どちらを選択しますか？",
-        preferredStyle: .actionSheet)
+        preferredStyle: .actionSheet)//アラートのスタイル
         //AのActionを選択肢
         let actionA = UIAlertAction(
             title: "A",
