@@ -9,6 +9,11 @@ import UIKit
 
 class TabBarItem3ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var text2Field: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +21,26 @@ class TabBarItem3ViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func displayButton(_ sender: UIButton) {
+        if let text1 = textField.text,
+           let text2 = text2Field.text {
+            
+            label.text = text1 + text2
+            
+        } else {
+        label.text = textField.text
+        label.text = text2Field.text
+        
+        }
+        //ボタンを押した時にキーボードを閉じる
+        //違い確認　ユーザーが使いやすくしよう！
+        textField.resignFirstResponder()//○
+        //text2Field.resignFirstResponder()//❌
+        
     }
-    */
+    //画面がタッチされた時に閉じる
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
 
 }
