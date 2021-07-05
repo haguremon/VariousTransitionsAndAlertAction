@@ -1,22 +1,18 @@
 //
-//  TabBarItem2ViewController.swift
+//  ViewController3.swift
 //  VariousTransitionsAndActionSheets
 //
-//  Created by IwasakIYuta on 2021/06/28.
+//  Created by IwasakIYuta on 2021/07/05.
 //
 
 import UIKit
 
-class TabBarItem2ViewController: UIViewController {
- 
-    var vc2TextField = ""
-    
-    @IBOutlet weak var vc2ValueLabel: UILabel!
-    
+class ViewController3: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        vc2ValueLabel.text = vc2TextField
+        // Do any additional setup after loading the view.
     }
     
 

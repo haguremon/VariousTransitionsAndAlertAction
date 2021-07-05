@@ -13,6 +13,13 @@
 		CF1E907B2689A86F00156E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1E90792689A86F00156E7D /* Main.storyboard */; };
 		CF1E907D2689A87400156E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1E907C2689A87400156E7D /* Assets.xcassets */; };
 		CF1E90802689A87400156E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1E907E2689A87400156E7D /* LaunchScreen.storyboard */; };
+		CF1E90882689AFB100156E7D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E90872689AFB100156E7D /* ViewController2.swift */; };
+		CF1E908A2689BF9000156E7D /* TabBarItem1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E90892689BF9000156E7D /* TabBarItem1ViewController.swift */; };
+		CF1E908C2689BFBE00156E7D /* TabBarItem2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E908B2689BFBE00156E7D /* TabBarItem2ViewController.swift */; };
+		CF1E908E2689BFDA00156E7D /* TabBarItem3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E908D2689BFDA00156E7D /* TabBarItem3ViewController.swift */; };
+		CF1E90902689C03300156E7D /* PushTransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E908F2689C03300156E7D /* PushTransitionsViewController.swift */; };
+		CF1E90922689C05F00156E7D /* ModalTransitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E90912689C05F00156E7D /* ModalTransitionsViewController.swift */; };
+		CF6AF4C52692D40900855826 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6AF4C42692D40900855826 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		CF1E907C2689A87400156E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1E907F2689A87400156E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF1E90812689A87400156E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1E90872689AFB100156E7D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CF1E90892689BF9000156E7D /* TabBarItem1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem1ViewController.swift; sourceTree = "<group>"; };
+		CF1E908B2689BFBE00156E7D /* TabBarItem2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem2ViewController.swift; sourceTree = "<group>"; };
+		CF1E908D2689BFDA00156E7D /* TabBarItem3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem3ViewController.swift; sourceTree = "<group>"; };
+		CF1E908F2689C03300156E7D /* PushTransitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransitionsViewController.swift; sourceTree = "<group>"; };
+		CF1E90912689C05F00156E7D /* ModalTransitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransitionsViewController.swift; sourceTree = "<group>"; };
+		CF6AF4C42692D40900855826 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			children = (
 				CF1E90732689A86F00156E7D /* AppDelegate.swift */,
 				CF1E90752689A86F00156E7D /* SceneDelegate.swift */,
+				CF1E90912689C05F00156E7D /* ModalTransitionsViewController.swift */,
+				CF1E908F2689C03300156E7D /* PushTransitionsViewController.swift */,
+				CF1E908D2689BFDA00156E7D /* TabBarItem3ViewController.swift */,
+				CF1E908B2689BFBE00156E7D /* TabBarItem2ViewController.swift */,
+				CF1E90892689BF9000156E7D /* TabBarItem1ViewController.swift */,
+				CF1E90872689AFB100156E7D /* ViewController2.swift */,
+				CF6AF4C42692D40900855826 /* ViewController3.swift */,
 				CF1E90772689A86F00156E7D /* ViewController.swift */,
 				CF1E90792689A86F00156E7D /* Main.storyboard */,
 				CF1E907C2689A87400156E7D /* Assets.xcassets */,
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6AF4C52692D40900855826 /* ViewController3.swift in Sources */,
+				CF1E908A2689BF9000156E7D /* TabBarItem1ViewController.swift in Sources */,
 				CF1E90782689A86F00156E7D /* ViewController.swift in Sources */,
+				CF1E90922689C05F00156E7D /* ModalTransitionsViewController.swift in Sources */,
+				CF1E90882689AFB100156E7D /* ViewController2.swift in Sources */,
+				CF1E90902689C03300156E7D /* PushTransitionsViewController.swift in Sources */,
+				CF1E908E2689BFDA00156E7D /* TabBarItem3ViewController.swift in Sources */,
 				CF1E90742689A86F00156E7D /* AppDelegate.swift in Sources */,
+				CF1E908C2689BFBE00156E7D /* TabBarItem2ViewController.swift in Sources */,
 				CF1E90762689A86F00156E7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

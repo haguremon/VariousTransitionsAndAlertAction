@@ -40,6 +40,12 @@ class ViewController: UIViewController {
     
     }
     
+    //TapGestureRecognizerを使って遷移させてみた7/5 14:55
+    //user インタラクションにチェックを入れる必要がある
+    @IBAction func tapRecognizer(_ sender: UITapGestureRecognizer) {
+        self.performSegue(withIdentifier: "toVC3", sender: nil)
+    }
+    
 
 }
 
